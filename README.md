@@ -3,7 +3,7 @@
 ---
 ### Created by ThePotato10 and Xasaur
 
-## FAQ:
+## FAQ: 
 ---
 - What languages were used to develop this? 
 - We used HTML, CSS, and JavaScript (Electron JS)
@@ -15,5 +15,5 @@
 - For now, only Windows. 
 ---
 
-## Documentation
+## Documentation: 
 ---
