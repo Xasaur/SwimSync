@@ -2,9 +2,9 @@
 ![GitHub Logo](checker-app/src/images/banner.png)
 ---
 ### Created by ThePotato10 and Xasaur
+---
 
 ## FAQ: 
----
 - What languages were used to develop this? 
 - We used HTML, CSS, and JavaScript (Electron JS)
 ---
