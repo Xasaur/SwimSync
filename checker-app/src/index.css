@@ -1,9 +1,100 @@
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  margin: auto;
-  max-width: 38rem;
-  padding: 16px;
+html, body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
+.title {
+    width: 100%;
+    height: 10%;
+    background-color: #00ABE7;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.results {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #CFCFCF;
+    border-top: 2px solid #243456;
+}
+
+.search input {
+    margin: 10px;
+    padding: 5px 10px;
+    width: 20%;
+    min-width: 100px;
+    box-sizing: border-box;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search button {
+    background-color: #00ABE7;
+    color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    width: 20%;
+    min-width: 100px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search button:hover {
+    background-color: #008BC7;
+}
+
+.search button:active {
+    box-shadow: none;
+}
+
+.results {
+    background-color: #EFEFEF;
+}
+
+.results-card {
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    padding: 20px;
+}
+
+.results-card #event {
+    text-align: center;
+    padding: 5px 20px;
+}
+
+.results-card #time {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.results-card div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
