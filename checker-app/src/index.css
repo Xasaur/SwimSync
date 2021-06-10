@@ -98,3 +98,6 @@ html, body {
     align-items: center;
     justify-content: space-around;
 }
+
+.banner {
+    margin-top: 55px;
