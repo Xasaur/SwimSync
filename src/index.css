@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace; ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title {
+  width: 100%;
+  height: 10%;
+  background-color: #00ABE7;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.results {
+  font-family: 'Courier New', Courier, monospace; 
+  background-color: #2886a8; 
+  width: 100%;
+  height: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.results-card {
+  background-color: white; 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); 
+  padding: 20px; 
+}
+
+.results-card #event {
+  text-align: center;
+  padding: 5px 20px;
+}
+
+.results-card #time {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.results-card div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.search {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1792be;
+  border-top: 2px solid #243456;
+}
+
+.search input {
+  font-family: 'Courier New', Courier, monospace; 
+  margin: 10px;
+  padding: 5px 10px;
+  width: 20%;
+  min-width: 100px;
+  box-sizing: border-box;
+}
+
+.search input:focus { 
+  font-family: 'Courier New', Courier, monospace; 
+  outline: none;
+}
+
+.search button {
+  font-family: 'Courier New', Courier, monospace; 
+  background-color: #00ABE7;
+  color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  width: 20%;
+  min-width: 100px;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+  margin-bottom: 30px; 
+}
+
+.search button:hover {
+  background-color: #007cb1;
+}
+
+.search button:active {
+  box-shadow: none; 
+}
